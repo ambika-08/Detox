@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Detox Coach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Social Media Detox Coach</h2>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Progress</a>
+                <a href="#">Challenges</a>
+                <a href="#">Settings</a>
+            </nav>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header Navigation -->
+            <header>
+                <h1>Social Media Detox</h1>
+                <nav>
+                    <button>Home</button>
+                    <button>Social Insights</button>
+                    <button>Settings</button>
+                </nav>
+            </header>
+            
+            <!-- Usage Graph -->
+            <section class="usage-graph">
+                <h2>Goal vs Actual Usage</h2>
+                <canvas id="usageChart"></canvas>
+            </section>
+            
+            <!-- Statistics Section -->
+            <section class="statistics">
+                <div class="stat-item">
+                    <h3>Daily Usage</h3>
+                    <div class="circle" id="dailyUsage">3.6%</div>
+                </div>
+                <div class="stat-item">
+                    <h3>Weekly Goal</h3>
+                    <div class="circle" id="weeklyGoal">3.9%</div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
